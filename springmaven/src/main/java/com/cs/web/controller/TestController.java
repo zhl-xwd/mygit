@@ -63,7 +63,7 @@ public class TestController {
 		return GatewayProtocol.protocolBody(GatewayProtocol.RET_FAIL, null, "");
 	}	
 	
-	//到loop请求由loop()处理
+	//到loop请求由loop()处理 
 	@RequestMapping("loop")
 	public String loop() {
 		

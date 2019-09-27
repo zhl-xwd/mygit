@@ -45,7 +45,7 @@ public class TestController {
 		return GatewayProtocol.protocolBody(GatewayProtocol.RET_FAIL, null, "");
 	}
 
-	//只接受get方式的请求 请求 请求
+	//只接受get方式的请求 请求 请求 请求
 	@GetMapping("/page")
 	public JSONObject page(PageReq pageReq) {
 		try {

@@ -5,6 +5,7 @@ public class PageReq {
 	private Integer size;
 	
 	public Integer getPage() {
+		
 		if(null == page) {
 			return 1;
 		}

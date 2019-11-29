@@ -1,6 +1,6 @@
 package com.cs.web.module.utils;
 
-public class PageReq {
+public class PageReq { 
 	private Integer page;
 	private Integer size;
 	

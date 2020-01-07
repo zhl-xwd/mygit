@@ -30,7 +30,7 @@ public class TestController {
 
 	@GetMapping("/test")
 	public JSONObject test(HttpServletRequest req) {
-		try {
+		try { 
 			TTest tTest = tTestService.selectByPrimaryKey(1L);
 			if(null == tTest) {
 				return GatewayProtocol.protocolBody(GatewayProtocol.RET_FAIL, null, "");

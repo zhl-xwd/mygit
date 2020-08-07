@@ -28,7 +28,7 @@ public class TestController {
 	
 	private static final Logger log = LoggerFactory.getLogger(TestController.class);
 
-	@GetMapping("/test") 
+	@GetMapping("/test")
 	public JSONObject test(HttpServletRequest req) {
 		try { 
 			TTest tTest = tTestService.selectByPrimaryKey(1L);
